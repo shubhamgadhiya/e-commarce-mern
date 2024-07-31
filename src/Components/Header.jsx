@@ -61,7 +61,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="logo">
-          <Link to="/">LOGO</Link>
+          <Link to="/">E=commarce</Link>
         </div>
         <div>
           <ul className="menu">

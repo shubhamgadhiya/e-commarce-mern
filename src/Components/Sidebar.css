@@ -1,0 +1,45 @@
+.leftSideStyle {
+  width: 20%;
+  min-height: 100vh;
+  background-color: lightgray;
+  padding: 10px;
+}
+.contentStyle {
+  padding: 10px;
+  flex: 1;
+}
+.list {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  cursor: pointer;
+  padding: 10px 15px;
+margin: 5px;
+}
+
+.list li.active, .list li:hover{
+  background-color: #808080;
+  color: #000000;
+  font-weight: bold;
+}
+/* .logout{
+    background-color: #808080;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    justify-content: center;
+    font-weight: bold;
+}
+.logout:hover{
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    border: 2px solid black;
+}
+
+.logout-button{
+    text-align: center;
+} */

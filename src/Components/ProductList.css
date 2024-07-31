@@ -1,0 +1,37 @@
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.card {
+  margin: 10px; /* Adjust margin as needed */
+  box-sizing: border-box; /* Ensure proper box sizing */
+}
+
+.card img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+/* Flexbox layout for card body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .card-text,
+.card-body .add-to-cart {
+  margin-top: 10px;
+}
+
+/* Flexbox layout for price and button */
+.card-body .card-price-and-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-body .card-price-and-button .card-price {
+  margin: 0;
+}

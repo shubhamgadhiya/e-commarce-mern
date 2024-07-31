@@ -1,0 +1,45 @@
+.add-to-cart{
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-img-top{
+  cursor: pointer;
+}
+/* Add this to Home.css */
+.category-buttons {
+  margin-bottom: 20px;
+}
+
+
+.category-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.category-button.active {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.category-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Add this to Home.css */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
